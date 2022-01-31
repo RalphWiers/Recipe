@@ -1,0 +1,43 @@
+/* unversal selector, type selector, class selector (atribute to html element), ID selector (not use) */
+
+* {
+    color: green;
+}
+/* type selector */
+body {
+    color: blue;
+}
+
+
+.alert-text,
+.rood.header {           
+    color: red;
+}
+
+.bold {
+   font-weight: bold; 
+}
+
+.severe-alert {
+    background-color: blue;
+}
+
+/* properties in cSS, "" used when single term is composed of multiple words */
+.properties {
+    color: yellow;
+    color: #1100ff;
+    /* font family: gaat fonts af tot de juiste er is */
+    font-family:"times new roman", sans-serif;
+    font-size: 22px;
+    font-weight: bold;
+    text-align: center;
+}
+
+img{
+    height: auto;
+    width: 800px;;
+}
+
+#paars {
+    color: purple;
+}
